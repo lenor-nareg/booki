@@ -1,0 +1,52 @@
+.accroche {
+  margin: 5px 0;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  border: 2px solid #1152e9;
+}
+
+form .label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.button {
+  height: 100%;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.rechercher-icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .formulaire {
+    max-width: 767px;
+    border: 10px solid #000;
+    height: 50px;
+  }
+
+  .rechercher-icon {
+    display: block;
+    width: 20%;
+  }
+
+  .rechercher {
+    display: none;
+  }
+
+  .label {
+    width: 20%;
+  }
+  #fname {
+    width: 75%;
+  }
+  .button {
+    width: 20%;
+  }
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/filters.css">
+  <link rel="stylesheet" href="css/heberger.css">
+  <link rel="stylesheet" href="css/populaire.css">
+  <link rel="stylesheet" href="css/activites.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/3563e2798a.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3563e2798a.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!--<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;1,400;1,500;1,900&display=swap"
+    rel="stylesheet"> -->
+  <title>booky</title>
+</head>
+
+<body>
+  <!------------------------ header ----------------------------------->
+  <div class="header">
+    <img src="assets/logo/booki_logo.svg" alt="booki">
+    <nav class="header-nav">
+      <ul class="menu-nav">
+        <li class="menu-item item1">
+          <a class="menu-link" href="#note">Hébergements</a>
+        </li>
+        <li class="menu-item item2">
+          <a class="menu-link" href="#activ">Activités</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!------------------------ container ----------------------------------->
+  <div id="container">
+
+    <!------------------------ main ----------------------------------->
+    <main id="main">
+
+      <!------------------------ accroche ----------------------------------->
+      <section class="accroche">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+
+        <!------------------------ form ----------------------------------->
+        <form class="formulaire">
+          <label for="fname" class="label test"><i class="fa-solid fa-location-dot"></i></label>
+          <input type="text" id="fname" class="test" name="fname" placeholder="Marseille, France">
+
+          <button class="button">
+
+            <span class="rechercher">Rechercher</span>
+            <span class="rechercher-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+          </button>
+        </form>
+      </section>
+
+      <!------------------------ filters ----------------------------------->
+      <section class="filtres-list">
+
+        <div class="filters-items">
+          <div class="filters-title">
+            <h3>Filtres</h3>
+          </div>
+
+          <div class="filter-item">
+            <span class="i-span-filter">
+              <i class="fa-solid fa-money-bill-wave"></i>
+            </span>
+            <p>Economies</p>
+          </div>
+          <div class="filter-item">
+            <span class="i-span-filter ">
+              <i class="fa-solid fa-child-reaching"></i>
+            </span>
+            <p>Familial</p>
+          </div>
+          <div class="filter-item">
+            <span class="i-span-filter ">
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <p>Romantique</p>
+          </div>
+          <div class="filter-item">
+            <span class="i-span-filter ">
+              <i class="fa-solid fa-dog"></i>
+            </span>
+            <p>Animaux autorisés</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!------------------------ info ----------------------------------->
+      <section class="row info">
+        <span><i class="fa-solid fa-info"></i></span>
+        <p>
+          Plus de 500 logements sont disponibles dans cette ville
+        </p>
+      </section>
+
+      <!------------------------ hebergements ----------------------------------->
+
+      <section class="hebergements" id="note">
+        <div class=" heberger">
+          <h3 class="heberger-title">Hébergement à Marseille</h3>
+
+          <div class="cards">
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="cards-card">
+              <div class="card">
+                <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+                <div class="container2">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="heberger-title"><a href="">Afficher plus</a></h3>
+        </div>
+
+        <!------------------------ populaires ----------------------------------->
+        <div class="popu">
+          <div class="popu-info">
+            <h3 class="popu-title">Les plus populaire</h3>
+            <span><i class="fa-chart-line fa-solid "></i></span>
+          </div>
+
+          <div class="cards2">
+            <div class="card2">
+              <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+              <div class=" pop-main">
+                <div class="pop-title">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+
+                <div class="pop-stars">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card2">
+              <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+              <div class=" pop-main">
+                <div class="pop-title">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+
+                <div class="pop-stars">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card2">
+              <img src="assets/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar">
+              <div class=" pop-main">
+                <div class="pop-title">
+                  <h4>Auberge de la mer</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+
+                <div class="pop-stars">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------ activites ----------------------------------->
+        <div class="activites" id="activ">
+          <h3>Activités à Marseille</h3>
+          <div class="activ-list">
+            <div class="activite-item activ1">Vieux Port</div>
+            <div class="activite-item activ2">Fort de Pomègues</div>
+            <div class="activite-item activ3">Île de Frioul</div>
+            <div class="activite-item activ4">Parc National des Calanques</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!------------------------ footer ----------------------------------->
+  <footer class="footer">
+    <div class="footer-list">
+      <div class="footerDiv a-propos">
+        <ul>
+          <h3>A propos</h3>
+          <li>Fonction du site</li>
+          <li>Conditions générales de vente</li>
+          <li>Données et confidentialités</li>
+        </ul>
+      </div>
+
+      <div class="footerDiv hebergements">
+        <ul>
+          <h3>Nos hébergements</h3>
+          <li>Charte qualité</li>
+          <li>Soumettre votre hotel</li>
+        </ul>
+      </div>
+
+      <div class="footerDiv assistance">
+        <ul>
+          <h3>Assistance</h3>
+          <li>Centre d'aide</li>
+          <li>Nous contacter</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
