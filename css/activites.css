@@ -36,14 +36,14 @@
 }
 
 
-
+/* MEDIA QUERIES TABLETTES  */
 
   @media screen and (max-width: 991px) {
-    body{
+   /* body{
         margin: 0 20px;
-        /* background: #ecd9d9; */
+         background: #ecd9d9; 
 
-    }
+    }*/
 
     .activ-list {
       background-color: blue;
@@ -57,6 +57,9 @@
     }
 
   }
+
+  /* MEDIA QUERIES MOBILE  */
+
   @media screen and (max-width: 767px) {
     body{
         margin: 0 20px;

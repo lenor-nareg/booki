@@ -1,44 +1,11 @@
-.accroche {
-  /* margin-top: 1vh; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 150px;
-}
-.accroche form {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
-  width: 415px;
-  height: 50px;
-  border: 1px solid #000;
-  border-radius: 10px;
-}
 
-form .test {
-  border: 1px solid #000;
-  /* width: 50px; */
-  /* height: 6vh; */
-  margin: 0;
-  /*display: block;*/
-  /* border-radius: 10px; */
-  height: 100%;
-  padding: 0 15px;
-  flex-grow: 2;
-}
-
-form .label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
+/* filter */
 
 .filtres-list {
   max-width: 950px;
   height: auto;
   display: flex;
-  border: 3px solid #d60c0c;
+  /* border: 3px solid #d60c0c; */
   justify-content: space-between;
   /* margin: 20px 0; */
 }
@@ -46,7 +13,7 @@ form .label {
 .filters-title {
   display: flex;
   align-items: center;
-  border: 2px solid #af5151;
+  /* border: 2px solid #af5151; */
   padding-right: 30px;
   font-size: large;
 }
@@ -55,7 +22,7 @@ form .label {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   justify-content: space-between;
   align-items: center;
 }
@@ -86,6 +53,7 @@ form .label {
   padding: 0 15px;
 }
 
+/* INFO  */
 .info {
   margin: 20px 0 20px 0;
   padding: 20px 0;
@@ -105,6 +73,9 @@ form .label {
   justify-content: center;
   border-radius: 20px;
 }
+
+
+/* MEDIA QUERIES MOBILE  */
 
 @media screen and (max-width: 767px) {
   .filters-title {
@@ -148,7 +119,7 @@ form .label {
     align-items: center;
   }
 
-  .accroche form {
+  .formulaire {
     display: flex;
     align-items: center;
     margin: 5px 0;
