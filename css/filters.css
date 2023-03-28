@@ -28,16 +28,17 @@
 }
 
 .filter-item {
-  /* border: 2px solid #000; */
+  border: 2px solid #000;
   border-radius: 50px;
   display: flex;
   height: 59px;
   align-items: center;
+ 
 }
 
 .i-span-filter {
-    /* border: 1px solid #000; */
-    background: #deebff;
+    /* border: 1px solid #000;
+    background: #deebff; */
   display: flex;
   justify-content: center;
   align-items: center;

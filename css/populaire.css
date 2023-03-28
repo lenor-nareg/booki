@@ -16,7 +16,7 @@
     height: 150px;
     align-content: center; 
     justify-content: center; 
-    border: 2px solid #f50b0b;
+    /* border: 2px solid #f50b0b; */
     margin-bottom: 5%;
 }
 
@@ -43,7 +43,7 @@
 .container2, .pop-main{
     /* max-width: 300px; */
     padding: 0 0 0 15px;
-    background: #e46d6d;
+    /* background: #e46d6d; */
     
 }
 
