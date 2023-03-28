@@ -50,8 +50,12 @@
 }
 
 .filter-item p {
-  color: #d60c0c;
+  /* color: #d60c0c; */
   padding: 0 15px;
+}
+
+.filters-items .filter-item:last-child{
+  background: #deebff;
 }
 
 /* INFO  */
@@ -75,6 +79,12 @@
   border-radius: 20px;
 }
 
+
+@media screen and (max-width: 991px) { 
+  .filters-items .filter-item:last-child{
+    background: #ffffff;
+  }
+}
 
 /* MEDIA QUERIES MOBILE  */
 
