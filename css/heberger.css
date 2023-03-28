@@ -26,37 +26,37 @@
 }
 
 .cards {
-  border: 5px solid #c70d0d;
+  /* border: 5px solid #c70d0d; */
   display: flex;
   justify-content: space-around;
   width: 100%;
+  height: auto;
   flex-wrap: wrap;
-  z-index: 1;
 }
 
 .cards-card {
-  max-width: 256px;
+  display: flex;
+  width: 30%;
   min-width: 240px;
   height: 200px;
-  border: 1px solid #065582;
+  /* border: 1px solid #9f0707; */
   border-radius: 10px 10px 0 0;
+  /* margin: bottom 25px ; */
 }
 
 .card {
-  height: 190px;
-  max-width: 244px;
-  border: 1px solid #e71313;
-  margin: 5px;
+  height: auto;
+  width: 100%;
+  /* border: 1px solid #e71313; */
   border-radius: 15px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  /* align-items: space-around; */
 }
 
 .card img {
-  max-width: 244px;
-  max-height: 112px;
+  height: 50%;
   /* margin: 5px 5px; */
   border-radius: 10px 10px 0 0;
   width: 100%;
@@ -65,33 +65,75 @@
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 991px) {
   .heberger {
-    background-color: rgb(251, 255, 0);
+    /* background-color: rgb(251, 255, 0); */
     width: 100%;
+
   }
 
   .cards {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    width: 100%;
   }
 
   .cards-card {
-    width: 100%;
+    width: 30%;
+  
   }
 }
 /* On screens that are 767px or less */
 @media screen and (max-width: 767px) {
   .heberger {
-    background-color: rgb(30, 255, 0);
+    /* background-color: rgb(30, 255, 0); */
     width: 100%;
+    order: 2;
   }
 
   .cards {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
   }
 
   .cards-card {
     width: 100%;
   }
+
+  .card{
+    height: 150px;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid #e71313; */
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .card .container2{
+    width: 70%;
+    border-radius:  0 10px 10px 0 ;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 30%;
+    height: 100%;
+    /* margin: 5px 5px; */
+    border-radius: 10px 0 0 10px;
+    
+  }
+
+  .star1{
+    display: flex;
+    width: 60%;
+    margin-top: 75px;
+    /* border: 1px solid #000; */
+  
+  }
+
+
 }
+ 

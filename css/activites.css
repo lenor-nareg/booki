@@ -1,7 +1,7 @@
 .activites{
     max-width: 1400px;
     width: 100%;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
     background: #ffffff;
     height: 800px;    
 }
@@ -16,7 +16,7 @@
    width: 100%;
    height: auto;
    margin: 10px auto;
-   border: 3px solid #3ee800;
+   /* border: 3px solid #3ee800; */
    display: flex;
    position: relative;
    justify-content: space-between;
@@ -26,7 +26,7 @@
 .activite-item{
     box-shadow: 0 0 20px #0000002e;
     transition-duration: 0.1s;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,13 +46,13 @@
     }*/
 
     .activ-list {
-      background-color: blue;
+      /* background-color: blue; */
       max-width: 990px;   
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       row-gap: 50px;
-      border-color: red;
+      /* border-color: red; */
 
     }
 
@@ -68,7 +68,7 @@
     }
 
     .activ-list {
-      background-color: blue;
+      /* background-color: blue; */
       max-width: 990px; 
       height: auto;  
       display: flex;
@@ -76,7 +76,7 @@
       /* flex-wrap: wrap;
       justify-content: space-around; */
       row-gap: 50px;
-      border-color: red;
+      /* border-color: red; */
 
     }
     .activite-item{
@@ -94,9 +94,10 @@
    
         width: 100%;
         border: 3px solid #000;
-        background: #ea6b6b;
+        /* background: #ea6b6b; */
         height: auto; 
         border-radius: 15px;   
+        order: 3;
     }
 
   }
