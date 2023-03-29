@@ -1,7 +1,7 @@
 .footer{
     max-width: 1400px;
     background: #F2F2F2;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@
 
 .footerDiv{
     /* display: flex; */
-    border: 1px solid #d20f0f;
+    /* border: 1px solid #d20f0f; */
     width: 30%;
     margin: 0 0 20px 0; 
     flex-grow: 1;
@@ -21,7 +21,7 @@
 }
 .footerDiv ul{
     /* display: flex; */
-    border: 2px solid #0f9bd2;
+    /* border: 2px solid #0f9bd2; */
     width: 100%;
     padding: 15px 32px; 
 

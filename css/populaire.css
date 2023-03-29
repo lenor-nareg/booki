@@ -53,10 +53,13 @@
     align-content: space-between;
     height: 130px;
     width: 63%;
-
 }
 
-.container2 span:nth-last-child(-n + 2){
+.pop-stars{
+    color: #0065fc;
+}
+
+.pop-stars span:nth-last-child(-n + 1){
     color: rgb(153, 149, 149);
 }
 

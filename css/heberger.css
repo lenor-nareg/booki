@@ -23,7 +23,7 @@
 
 .heberger-title,
 .popu-title {
-  padding: 30px 30px;
+  padding: 0 0 30px 30px;
 }
 
 .cards {
@@ -68,6 +68,18 @@
   flex-direction: column;
   margin-top: 10px;
   gap: 10px;
+}
+
+.star1{
+  display: flex;
+  width: 60%;
+  color: #0065fc;
+  /* margin-top: 75px; */
+  /* border: 1px solid #000; */
+}
+
+.star1 span:nth-last-child(-n + 1){
+  color: rgb(153, 149, 149);
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -134,14 +146,14 @@
     
   }
 
+
   .star1{
-    display: flex;
+    padding-top: 50px;
+   /* display: flex;
     width: 60%;
-    margin-top: 75px;
-    /* border: 1px solid #000; */
+     border: 1px solid #000; */
   
   }
-
 
 }
  
