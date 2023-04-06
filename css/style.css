@@ -57,6 +57,7 @@ body{
   justify-content: center;
   border-top: 3px solid white;
   flex-grow: 1; 
+  color: black;
 }
 
 /* .menu-item {
@@ -67,7 +68,7 @@ body{
 
 .menu-item:hover{
   border-top: 3px solid #0065FC;
-  transition-duration: 0.1s;
+  transition-duration: 0.5s;
   color: #0065FC;
 }
 /* .item2 .menu-link:hover{
@@ -106,10 +107,10 @@ body{
       /* background-color: blue; */
       max-width: 992px;
     }
-    .header .item1{
+    .menu-item{
       border: 3px solid transparent;
     }
-    .header .item1:hover{
+    .menu-item:hover{
       border-top: 3px solid  #0065FC;
     }
 
@@ -144,17 +145,17 @@ body{
       width: 100%;
     }
 
-    .header .item1,.header .item2 {
-      border-top: none;
+    .menu-item{
+      border-top: #ffffff;
     }
-
-    .header .item1{
+/* 
+    .menu-item{
       border-bottom:3px solid #0065FC;
-    }
-    .header .item2{
+    } */
+    .menu-item{
       border-bottom:3px solid #ffffff;
     }
-    .header .item2:hover{
+    .menu-item:hover{
       border-bottom:3px solid #0065FC;
     }
 
