@@ -78,7 +78,9 @@
       /* border-color: red; */
     }
 
-    
+    .activite-item{
+      height: auto;
+    }
   }
 
   /* MEDIA QUERIES MOBILE  */
