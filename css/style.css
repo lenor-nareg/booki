@@ -55,37 +55,25 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.header .item1 {
-  border-top: 3px solid #0065FC;
+  border-top: 3px solid white;
   flex-grow: 1; 
 }
 
-.header .item2 {
+/* .menu-item {
   border-top: 3px solid white;
-  
-  flex-grow: 1;
-}
+  flex-grow: 1; 
+} */
 
-.header .item1 a{
-  color:  #0065FC;
-  
-}
 
-.header .item2 a{
- 
-  color: #000;
-  
-}
-.item2:hover{
+.menu-item:hover{
   border-top: 3px solid #0065FC;
   transition-duration: 0.1s;
+  color: #0065FC;
 }
-.item2 .menu-link:hover{
+/* .item2 .menu-link:hover{
   color: #0065FC;
  
-}
+} */
 
 #container {
   max-width: 1400px;
