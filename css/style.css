@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+body{
+  margin: 0 35px;
+}
+
 .header {
   display: flex;
   /* border: 5px solid #f13d3d; */
@@ -101,6 +105,11 @@
   width: 100%; 
 }
 
+.span-price{
+ font-weight: bold;
+  
+}
+
 /* -------------MediaQueries--- */
 
   /* On screens that are 992px or less, set the background color to blue */
@@ -108,6 +117,12 @@
     #container {
       /* background-color: blue; */
       max-width: 992px;
+    }
+    .header .item1{
+      border: 3px solid transparent;
+    }
+    .header .item1:hover{
+      border-top: 3px solid  #0065FC;
     }
 
   }
@@ -118,11 +133,17 @@
       /* background-color: olive; */
       max-width: 767px;
     }
+
+    /* body{
+      margin: 0 auto;
+    } */
+
     .header{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       height: auto;
+      width: 100%;
       /* border: 2px solid #1e00e4; */
     }
     .header img{

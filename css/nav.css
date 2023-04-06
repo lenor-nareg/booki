@@ -28,6 +28,10 @@
   height: 100%;
   padding: 0 15px;
   flex-grow: 2;
+  border-bottom:1px solid  #f2f2f2;
+  border-top:1px solid  #f2f2f2;
+  border-left: none;
+  border-right: none;
 }
 
 .label {
@@ -36,7 +40,7 @@
   align-items: center;
  flex-grow: 1;
  height: 100%;
- background: #DEEBFF;
+ background: #f2f2f2f2;
  border-radius: 15px 0 0 15px;
 }
 
@@ -46,6 +50,7 @@
   border-radius: 0 15px 15px 0;
   flex-grow: 1;
   background: #0065fc;
+  border: #0065fc;
   color: #f2f2f2;
 }
 

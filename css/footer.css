@@ -16,16 +16,16 @@
     /* border: 1px solid #d20f0f; */
     width: 30%;
     margin: 0 0 20px 0; 
-    flex-grow: 1;
-    
+    flex-grow: 1;  
 }
+
 .footerDiv ul{
     /* display: flex; */
     /* border: 2px solid #0f9bd2; */
     width: 100%;
     padding: 15px 32px; 
-
 }
+
 .footerDiv ul h3{
     /* display: flex; */
     /* border: 2px solid #43d20f; */
@@ -43,7 +43,6 @@
    /* body{
         margin: 0 20px;
          background: #ecd9d9;
-
     } */
 
     .footer-list {
@@ -54,5 +53,4 @@
     .footerDiv{
         width: 100%;
     }
-
-  }
+}
