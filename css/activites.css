@@ -87,8 +87,8 @@
 
   @media screen and (max-width: 767px) {
     body{
-      /* background: #ecd9d9; */
-        margin: 0 20px;
+      background: #0b1bf5;
+      
     }
 
     .activ-list {
@@ -111,8 +111,9 @@
         align-items: center;
         justify-content: center;
         /* font-size: xx-large;  */
-        width: 100%;   
-        height: 545px;  
+        width: 90%;   
+        height: 285px;  
+        margin: 0 auto;
     }
 
     .activites{
@@ -124,4 +125,10 @@
         border-radius: 15px;   
         order: 3;
     }
+
+    .activ-card img {
+      width: 100%;
+      height: 85%;
+      border-radius: 15px 15px 0 0;
+  }
   }

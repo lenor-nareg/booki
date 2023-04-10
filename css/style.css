@@ -1,4 +1,6 @@
 /* RESET */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@400;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,71 +12,71 @@
 }
 
 body{
-  margin: 0 35px;
+  /* margin: 0 35px; */
+  background: #f54949;
+  /* width: 100%; */
+
+}
+
+ #container, .footer{
+  padding: 0 35px;
+  background: #a8f549;
+  border: 3px solid #000;
+  /* width: 100%; */
+  /* max-width: 1100px; */
 }
 
 .header {
   display: flex;
-  /* border: 5px solid #f13d3d; */
+  /* border: 5px solid #f18e3d; */
   max-width: 1400px;
-  height: 100px;
+  height: 79px;
   margin: 0 auto;
+  background: #ffffff;
+  justify-content: space-between;
 }
 
 .header img{
   /* border: 1px solid #000; */
   margin: 0;
-  max-width: 100px;
-  height: 65px;
-  padding: 10px 0 0 5px;  
+  width: 80px;
+  height: 30px;
+  margin:auto 20px;  
 }
 
 .header-nav{
   /* border: 3px dashed #da1919; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
   height: 100%;
   display: flex;
-  justify-content: flex-end;  
+  justify-content:space-around;   
+  width: 23%;
 }
 
-.menu-nav {
-  display: flex;
-  /* justify-content: space-around; */
-  width: 314px;
-  height: 100%;
-  /* border: 2px dashed #04aaac; */
-  margin: 0;
-  padding: 0;
-}
-
-.menu-item{
+.menu-link{
   /* border: 1px dashed #c60edf; */
   height: 100%;  
   font-size: medium;
-  margin: 0;
+  /* margin: 0; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   border-top: 3px solid white;
-  flex-grow: 1; 
+  /* flex-grow: 1;  */
   color: black;
+  padding-top: 15px;
+  /* font-family: 'Raleway'; */
+  font-style: normal;
+font-weight: 100px;
+font-size: 18px;
+line-height:1.5;
 }
 
-/* .menu-item {
-  border-top: 3px solid white;
-  flex-grow: 1; 
-} */
-
-
-.menu-item:hover{
+.menu-link:hover{
   border-top: 3px solid #0065FC;
-  transition-duration: 0.5s;
   color: #0065FC;
+  transition-duration: 0.2s;
 }
-/* .item2 .menu-link:hover{
-  color: #0065FC;
- 
-} */
 
 #container {
   max-width: 1400px;
@@ -84,10 +86,6 @@ body{
   flex-direction: column;
   min-height: 100px;
 }
-
-/* .row {
-  border: 2px dashed rgb(21, 22, 22);
-} */
 
 #main{
   /* border: 3px solid #dc0c0c; */
@@ -107,11 +105,15 @@ body{
       /* background-color: blue; */
       max-width: 992px;
     }
-    .menu-item{
+    .menu-link{
       border: 3px solid transparent;
     }
-    .menu-item:hover{
+    .menu-link:hover{
       border-top: 3px solid  #0065FC;
+    }
+    .header-nav{
+      width: 30%;
+      margin-right: 5px;
     }
 
   }
@@ -121,11 +123,13 @@ body{
     #container {
       /* background-color: olive; */
       max-width: 767px;
+
     }
 
-    /* body{
-      margin: 0 auto;
-    } */
+    body{
+      /* margin: none; */
+      /* width: 767px; */
+    }
 
     .header{
       display: flex;
@@ -133,49 +137,42 @@ body{
       justify-content: center;
       height: auto;
       width: 100%;
+      /* max-width: 767px; */
+
       /* border: 2px solid #1e00e4; */
     }
     .header img{
       /* display: none; */
-      width: 100%;
-      height: 8vh;  
+      width: 20%;
+      height: 5vh;  
     }
 
     .header-nav{
       width: 100%;
-    }
-
-    .menu-item{
-      border-top: #ffffff;
-    }
-/* 
-    .menu-item{
-      border-bottom:3px solid #0065FC;
-    } */
-    .menu-item{
-      border-bottom:3px solid #ffffff;
-    }
-    .menu-item:hover{
-      border-bottom:3px solid #0065FC;
-    }
-
-    .menu-nav {
-      display: flex;
-      /* justify-content: space-around; */
-      width: 100%;
-      height: 100%;
-
-      /* border: 5px dashed #04aaac; */
-    }
-
-
-    .header-nav{
-      height: 100px;
-      
     }
 
     .menu-link{
-      font-size: x-large;
+      border-bottom:3px solid #ffffff;
+      flex-grow: 1;
     }
-    
+    .menu-link:hover{
+      border-top:3px solid #ffffff;
+      border-bottom:3px solid #0065FC;
+    }
+
+   /* .menu-nav {
+      display: flex;
+       justify-content: space-around;
+      width: 100%;
+      height: 100%; */
+
+      /* border: 5px dashed #04aaac;
+    } */
+
+
+    .header-nav{
+      height: auto;
+      
+    }
+
   }

@@ -1,5 +1,5 @@
 .popu{
-    width: 27%;
+    width: 30%;
 }
 .popu-info{
     display: flex;
@@ -13,7 +13,7 @@
 .cards2{
     display: flex; 
     width: 100%;
-    height: 150px;
+    height: 140px;
     align-content: center; 
     justify-content: center; 
     /* border: 2px solid #f50b0b; */
@@ -23,7 +23,7 @@
 .card2{
     display: flex;
     width: 90%;
-    height: 140px;
+    height: auto;
     /* border: 1px solid #000; */
     background: #ffffff;
     border-radius: 20px;
@@ -34,7 +34,7 @@
 
 .card2 img{
     border-radius: 20px 0px 0px 20px;
-    height: 130px;
+    height: 92%;
     width: 35%;
 
 }
@@ -42,7 +42,7 @@
 
 .container2, .pop-main{
     /* max-width: 300px; */
-    padding: 0 0 0 15px;
+    padding: 10px 0 10px 10px;
     /* background: #e46d6d; */
     
 }
@@ -51,8 +51,9 @@
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    height: 130px;
+    height: 100%;
     width: 63%;
+    /* border: 1px solid #000; */
 }
 
 .pop-stars{
@@ -100,6 +101,8 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    height: auto;
+  
 }
 
 
