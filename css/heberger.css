@@ -3,11 +3,8 @@
   flex-wrap: wrap;
   width: 100%;
   /* border: 3px solid #0e15e0; */
-  /* justify-self: unset; */
   justify-content: space-between;
   /* border-radius: 15px; */
-  /* height: 100px; */
-  /* gap: 0 15px; */
   /* background: #de5a5a; */
 }
 
@@ -15,17 +12,14 @@
 .popu {
   /* border: 3px solid #84ed28; */
   border-radius: 15px;
-  background: #f2f2f2;
-  
+  background: #f2f2f2;  
 }
 
 .heberger {
-  width: 68%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding: 0 15px; */
-  /* gap: 10px 0; */
  padding: 20px 28px;
 }
 
@@ -39,58 +33,64 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 20%;
+  height: auto;
   flex-grow: 1;
   flex-wrap: wrap;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 .cards-card {
   display: flex;
-
-  width: 31%;
+  width: 33%;
   min-width: 100px;
   height: 50%;
   /* border: 3px solid #ff0000; */
   border-radius: 10px 10px 0 0;
-  
-  
 }
 
 .card {
   height: auto;
-  width: 100%;
+  width: 95%;
   /* border: 3px solid #fff200; */
   margin-bottom: 20px;
   border-radius: 15px;
-  background-color: rgb(214, 171, 171);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   /* align-items: space-around; */
   /* justify-content: center; */
 }
 
+.card a{
+  width: 100%;
+  /* border: 1px solid #000; */
+  height: auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
 .card img {
   height: 120px;
   margin: 5px 5px 0 5px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
   width: 96%;
-  /* display: none; */
 }
 
-.container2{
-  /* display: flex;
-  flex-direction: column; */
-  /* margin-top: 10px; */
-  /* gap: 5px; */
-  /* border: 2px solid #1aff00; */
+ .container2{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 10px;   */
+  gap: 5px;
+ /* border: 2px solid #1aff00;  */
+ width: 100%;
 }
 
 .container2 h4{
   padding-bottom: 5px;
   font-size: 16px;
 }
+
 .container2 p{
   padding-bottom: 0;
   font-size: 14px;
@@ -109,21 +109,10 @@
 }
 
 /* On screens that are 992px or less, set the background color to blue */
-/*@media screen and (max-width: 1100px) {
-  .cards-card {
-     background-color: rgb(251, 255, 0); 
-    width: 48%;
-}
-  }*/
-
- 
-
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 991px) {
   .heberger {
     /* background-color: rgb(251, 255, 0); */
     width: 100%;
-
   }
 
   .cards {
@@ -133,10 +122,6 @@
     width: 100%;
   }
 
-  .cards-card {
-    width: 30%;
-  
-  }
 }
 /* On screens that are 767px or less */
 @media screen and (max-width: 767px) {
@@ -198,19 +183,17 @@
   .card img {
     width: 97%;
     max-width: 630px;
-    height: 120px;
+    height: 130px;
     margin: auto;
-    border-radius: 10px 10px 0 0 ;
-    padding-top: 10px;
+    border-radius: 15px 15px 0 0 ;
+    padding-top: 6px;
   }
-
 
   .star1{
     padding-top: 2px;
    /* display: flex;
     width: 60%;
-     border: 1px solid #000; */
-  
+     border: 1px solid #000; */ 
   }
 
 }

@@ -1,92 +1,95 @@
-.popu{
-    width: 30%;
+.popu {
+  width: 33%;
 }
-.popu-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.popu-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.popu-info span{
-    padding: 0 30px 0 0;
-}
-
-.cards2{
-    display: flex; 
-    width: 100%;
-    height: 140px;
-    align-content: center; 
-    justify-content: center; 
-    /* border: 2px solid #f50b0b; */
-    margin-bottom: 5%;
+.popu-info span {
+  padding: 0 30px 0 0;
 }
 
-.card2{
+.cards2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  /* border: 2px solid #f50b0b; */
+  margin-bottom: 5%;
+}
+
+.card2 {
+  display: flex;
+  width: 90%;
+  height: 140px;
+  /* border: 1px solid #000; */
+  background: #ffffff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2-a{
     display: flex;
-    width: 90%;
-    height: auto;
     /* border: 1px solid #000; */
-    background: #ffffff;
-    border-radius: 20px;
+    width: 100%;
+    height: 100%;
     align-items: center;
-    justify-content: center;
-   
 }
 
-.card2 img{
-    border-radius: 20px 0px 0px 20px;
-    height: 92%;
-    width: 35%;
-
+.card2 img {
+  border-radius: 20px 0px 0px 20px;
+  height: 92%;
+  width: 30%;
 }
 
-
-.container2, .pop-main{
-    /* max-width: 300px; */
-    padding: 10px 0 10px 10px;
-    /* background: #e46d6d; */
-    
+.container2,
+.pop-main {
+  /* max-width: 300px; */
+  padding: 10px 0 10px 10px;
+  /* background: #e46d6d; */
 }
 
-.pop-main{
+.pop-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 100%;
+  width: 63%;
+  /* border: 1px solid #000; */
+}
+
+.pop-stars {
+  color: #0065fc;
+}
+
+.pop-stars span:nth-last-child(-n + 1) {
+  color: rgb(153, 149, 149);
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 991px) {
+  .popu {
+    /* background-color: blue; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
-    height: 100%;
-    width: 63%;
-    /* border: 1px solid #000; */
+  }
+
+  .cards2 {
+    /* display: flex; */
+    width: 33%;
+  }
+
+  .popu-info {
+    width: 100%;
+  }
 }
-
-.pop-stars{
-    color: #0065fc;
-}
-
-.pop-stars span:nth-last-child(-n + 1){
-    color: rgb(153, 149, 149);
-}
-
-
-  /* On screens that are 992px or less, set the background color to blue */
-  @media screen and (max-width: 991px) {
-    .popu {
-      /* background-color: blue; */
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .cards2{
-        /* display: flex; */
-        width: 33%;
-    }
-
-    .popu-info{
-        width: 100%;
-    }
-}
-
 
 /* On screens that are 767px or less, set the background color to blue */
-@media screen and (max-width: 767PX) {
+@media screen and (max-width: 767px) {
   .popu {
     /* background-color: rgb(0, 34, 255); */
     width: 100%;
@@ -96,22 +99,21 @@
     order: 1;
   }
 
-  .cards2{
+  .cards2 {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     height: auto;
-  
-}
+  }
 
-
-
-.pop-main{
+  .pop-main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+  }
 
-  
+  .pop-title {
+    font-size: 13px;
+  }
 }

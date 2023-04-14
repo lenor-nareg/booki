@@ -30,8 +30,8 @@
     align-items: center;
     justify-content: center;
     /* font-size: xx-large;  */
-    width: 20%;   
-    height: 400px;  
+    width: 23%;   
+    height: 460px;  
     border-radius: 15px;
 }
 
@@ -79,17 +79,17 @@
     }
 
     .activite-item{
-      height: auto;
+      height: 400px;
+      width: 24%;
     }
   }
 
   /* MEDIA QUERIES MOBILE  */
 
   @media screen and (max-width: 767px) {
-    body{
-      /* background: #0b1bf5; */
-      
-    }
+    /*body{
+       background: #0b1bf5;    
+    }*/
 
     .activ-list {
       /* background-color: blue; */
@@ -111,7 +111,7 @@
         align-items: center;
         justify-content: center;
         /* font-size: xx-large;  */
-        width: 90%;   
+        width: 80%;   
         height: 285px;  
         margin: 0 auto;
     }
