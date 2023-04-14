@@ -128,7 +128,8 @@ line-height:1.5;
 
     }
 
-    body{
+    #container, .footer{
+      padding: 0 ;
       /* margin: none; */
       /* width: 767px; */
     }

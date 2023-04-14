@@ -160,4 +160,8 @@ font-size: 11px;
     width: 47%;
   }
 
+  .accroche, .filters-items{
+    margin: 0 25px;
+  }
+
 }
