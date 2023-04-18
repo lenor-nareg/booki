@@ -12,7 +12,7 @@
 .accroche h1{
   font-size: 21px;
   padding-bottom: 5px;
-  /* color: #0065fc; */
+
 }
 
 
@@ -33,17 +33,11 @@
   border-radius: 15px;
   font-size: 18px;
   font-weight: 700;
-  /* line-height: 21px; */
   color: rgb(0, 0, 0);
 }
 
 .test {
-  /* border: 1px solid #000; */
-  /* width: 50px; */
-  /* height: 6vh; */
   margin: 0;
-  /*display: block;*/
-  /* border-radius: 20px; */
   height: 100%;
   padding: 0 15px;
   flex-grow: 2;
@@ -72,7 +66,6 @@
   color: #f2f2f2;
   font-size: 18px;
   font-weight: 700;
-  /* line-height: 21px; */
 }
 
 .rechercher-icon {
@@ -82,7 +75,6 @@
 @media screen and (max-width: 767px) {
   .formulaire {
     max-width: 600px;
-    /* border: 10px solid #000; */
     height: 50px;
   }
 

@@ -26,14 +26,14 @@
   justify-content: space-between;
   align-items: center;
   font-weight:700;
-font-size:17px;
+  font-size:17px;
 }
 
 .filter-item {
   border: 2px solid #f2f2f2;
   border-radius: 50px;
   display: flex;
-  height: 59px;
+  /* height: 59px; */
   align-items: center;
   /* flex-grow: 1; */
 }
@@ -50,8 +50,6 @@ font-size:17px;
   align-items: center;
   width: 35px;
   height: 35px; 
- 
-
   border-radius: 50% 50%;
   color: #0065fc;
 }
@@ -62,9 +60,6 @@ font-size:17px;
   font-size: 15px;
 }
 
-/* .filters-items .filter-item:last-child{
-  background: #deebff;
-} */
 
 /* INFO  */
 .info {
@@ -74,13 +69,13 @@ font-size:17px;
   align-items: center;
   max-width: 500px;
   height: auto;
-  background: #ffffff;
- 
+  background: #ffffff; 
 }
+
 .info span {
   border: 1px solid #f2f2f2;
   margin: 0 7px 0 0;
-font-size: 11px;
+  font-size: 11px;
   height: 30px;
   width: 30px;
   display: flex;
@@ -90,25 +85,19 @@ font-size: 11px;
   color: #0065fc;
 }
 
-
 @media screen and (max-width: 991px) { 
-   /*.filters-items .filter-item:last-child{
-    background: #ffffff;
-    width: 90%;
-  } */
+
   .filters-title {
     /* background-color: rgb(150, 150, 231); */
     width: 100%;
   }
   .filtres-list {
-    width: 80%;
+    width: 85%;
     height: auto;
     display: flex;
     /* border: 3px solid #d60c0c; */
-    /* margin: 20px 0; */
     background: #ffffff;
   }
-
 }
 
 /* MEDIA QUERIES MOBILE  */
@@ -124,13 +113,10 @@ font-size: 11px;
     width: 100%;
   }
 
-  /* .filter-item {
-    display: flex; 
-  }*/
 
   .filters-items {
     height: auto;
-    /* display: flex; */
+ 
     flex-wrap: wrap;
     flex-grow: 1;
     gap: 15px;
@@ -142,7 +128,7 @@ font-size: 11px;
   .i-span-filter {
       /* border: 1px solid #000; */
       /* background: #deebff; */
-    /* display: flex; */
+ 
     align-items: center;
     justify-content: center;
     max-width: 39px;
@@ -154,8 +140,8 @@ font-size: 11px;
   .filter-item {
     /* border: 2px solid #000; */
     border-radius: 50px;
-    /* display: flex; */
-    height: 39px;
+ 
+    height: 59px;
     align-items: center;
     width: 47%;
   }
@@ -163,5 +149,4 @@ font-size: 11px;
   .accroche, .filters-items{
     margin: 0 25px;
   }
-
 }

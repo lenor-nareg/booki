@@ -1,13 +1,19 @@
 .popu {
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
 }
 .popu-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
-.popu-info span {
-  padding: 0 30px 0 0;
+ .popu-info span {
+ color:#0065fc;
 }
 
 .cards2 {
@@ -16,13 +22,13 @@
   height: auto;
   align-content: center;
   justify-content: center;
-  /* border: 2px solid #f50b0b; */
+
   margin-bottom: 5%;
 }
 
 .card2 {
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 140px;
   /* border: 1px solid #000; */
   background: #ffffff;
@@ -44,11 +50,12 @@
   border-radius: 20px 0px 0px 20px;
   height: 92%;
   width: 30%;
+  padding-left: 5px;
 }
 
 .container2,
 .pop-main {
-  /* max-width: 300px; */
+
   padding: 10px 0 10px 10px;
   /* background: #e46d6d; */
 }
@@ -75,13 +82,20 @@
   .popu {
     /* background-color: blue; */
     width: 100%;
-    display: flex;
+
+    flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .pop-title p {
+    font-size: 14px;
+
   }
 
   .cards2 {
-    /* display: flex; */
-    width: 33%;
+
+    width: 30%;
+    /* border: 1px solid #000; */
   }
 
   .popu-info {
@@ -96,7 +110,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* height: 1500px; */
     order: 1;
   }
 
