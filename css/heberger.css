@@ -25,6 +25,9 @@
  /*  */
  /* gap: 10px; */
 }
+.heberger-plus a {
+  color: inherit;
+}
 
 
 .cards {
@@ -138,7 +141,7 @@
   .hebergements{
     height: auto;
     width: 100%;
-    gap: 50px;
+    /* gap: 50px; */
     /* border: 5px solid #000; */
   }
 

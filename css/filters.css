@@ -107,6 +107,7 @@
   .filters-title {
     /* background-color: rgb(150, 150, 231); */
     width: 100%;
+    margin-top: 15px;
   }
 
   .filtres-list{
