@@ -36,6 +36,9 @@
     width: 100%;
     padding: 5px 0; 
 }
+.footerDiv ul li a{
+    color: inherit; 
+}
 
 @media screen and (max-width: 767px) {
 
