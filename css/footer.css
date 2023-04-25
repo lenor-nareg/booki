@@ -1,8 +1,7 @@
 .footer{
-    max-width: 1400px;
-    /* background: #F2F2F2; */
+    /*background: #F2F2F2; */
     /* border: 5px solid green; */
-    margin: 35px auto;
+    margin: 45px auto 0 auto;
 }
 
 .footer-list{
@@ -45,10 +44,14 @@
 
 @media screen and (max-width: 767px) {
 
+    .footer{
+        margin-bottom: 0;
+    }
 
     .footer-list {
       display: flex;
       flex-direction: column;
+      
     }
 
     .footerDiv{
