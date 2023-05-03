@@ -22,7 +22,6 @@
   height: auto;
   align-content: center;
   justify-content: center;
-
   margin-bottom: 5%;
 }
 
@@ -130,16 +129,18 @@
   }
 
   .popu-title {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   .pop-title {
     font-size: 13px;
   }
 
-  .info{
+  .popu-info{
+    /* border: 1px solid #000;
+    display: flex;
+    align-items: center;
     width: 90%;
-    /* border: 1px solid #000; */
-    margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 30px; */
+    margin: 15px auto;
   }
 }

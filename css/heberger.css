@@ -13,7 +13,7 @@
   /* border: 3px solid #84ed28; */
   border-radius: 15px;
   background: #f2f2f2; 
-   padding: 30px 30px;
+   padding: 10px 30px;
    gap: 30px;
 }
 
@@ -23,7 +23,8 @@
   flex-direction: column;
   justify-content: space-between;
  /*  */
- /* gap: 10px; */
+ gap: 15px;
+ margin-top: 20px;
 }
 .heberger-plus a {
   color: inherit;
@@ -184,7 +185,7 @@
   .card img {
     width: 97%;
     max-width: 670px;
-    height: 130px;
+    height: 140px;
     margin: auto;
     border-radius: 15px 15px 0 0 ;
     padding-top: 6px;
