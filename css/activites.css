@@ -98,7 +98,7 @@ align-items: center;
   .activite-item {
     height: 230px;
     width: 22%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
   }
 
   .activ-card-text{
